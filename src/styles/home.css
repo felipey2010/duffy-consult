@@ -1,0 +1,104 @@
+.home-container {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 50%), rgba(0, 0, 0, 25%)),
+    url("../images/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-family: var(--font-primary);
+}
+
+.home-container h4 {
+  font-size: 46px;
+}
+
+.home-container .intro-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 54px;
+}
+
+.home-container .intro-text h2:last-child {
+  color: var(--color-primary);
+  margin-left: 8px;
+}
+
+.home-container .animated-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+.home-container .animated-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container .animated-text h2 {
+  font-size: 36px;
+}
+
+.home-container .animated-text input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  outline: none;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.home-container .animated-text span {
+  height: 100%;
+  margin-left: 12px;
+}
+
+.animated-content {
+  color: var(--color-light);
+  height: 100%;
+  font-family: var(--font-primary);
+  margin: 0;
+  padding: 4px;
+  font-size: 1ch;
+}
+
+.home-container .animated-text input::placeholder {
+  color: var(--color-light);
+  font-size: 36px;
+  height: 100%;
+  font-family: var(--font-primary);
+}
+
+.home-container-button {
+  width: 150px;
+  padding: 8px;
+  border: 2px solid var(--color-primary);
+  outline: none;
+  background-color: rgba(0, 0, 0, 1);
+  color: var(--color-light);
+  font-size: 24px;
+  font-weight: 700;
+
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 24px;
+}
+
+.home-container-button:hover {
+  background-color: white;
+  color: black;
+}
